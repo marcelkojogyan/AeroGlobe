@@ -1,0 +1,13 @@
+{
+    "colors": [
+        {
+            "idiom": "universal",
+            "platform": "ios",
+            "reference": "systemCyanColor"
+        }
+    ],
+    "info": {
+        "author": "xcode",
+        "version": 1
+    }
+}

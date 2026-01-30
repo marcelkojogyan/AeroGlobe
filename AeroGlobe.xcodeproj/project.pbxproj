@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01A1E0012C000000000000A0 /* AeroGlobeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A1E0002C000000000000A0 /* AeroGlobeApp.swift */; };
+		01A1E0032C000000000000A1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A1E0022C000000000000A1 /* ContentView.swift */; };
+		01A1E0052C000000000000A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01A1E0042C000000000000A2 /* Assets.xcassets */; };
+		01A1E0072C000000000000A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01A1E0062C000000000000A3 /* Preview Assets.xcassets */; };
+		01A1E0092C000000000000A4 /* Flight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A1E0082C000000000000A4 /* Flight.swift */; };
+		01A1E00B2C000000000000A5 /* GeoMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A1E00A2C000000000000A5 /* GeoMath.swift */; };
+		01A1E00D2C000000000000A6 /* GlobeSceneController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A1E00C2C000000000000A6 /* GlobeSceneController.swift */; };
+		01A1E00F2C000000000000A7 /* GlobeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A1E00E2C000000000000A7 /* GlobeView.swift */; };
+		01A1E0112C000000000000A8 /* AirportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A1E0102C000000000000A8 /* AirportService.swift */; };
+		01A1E0132C000000000000A9 /* AddFlightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A1E0122C000000000000A9 /* AddFlightView.swift */; };
+		01A1E0152C000000000000AA /* PassportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A1E0142C000000000000AA /* PassportView.swift */; };
+		01A1E0172C000000000000AB /* CalendarImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A1E0162C000000000000AB /* CalendarImporter.swift */; };
+		01A1E0192C000000000000AC /* airports.json in Resources */ = {isa = PBXBuildFile; fileRef = 01A1E0182C000000000000AC /* airports.json */; };
+		FF3B2B342F2CEFD70009375E /* UserRank.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3B2B332F2CEFD60009375E /* UserRank.swift */; };
+		FF3B2B372F2CF00F0009375E /* RankProgressCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3B2B362F2CF00E0009375E /* RankProgressCard.swift */; };
+		FF3B2B382F2CF00F0009375E /* LevelUpOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3B2B352F2CF00E0009375E /* LevelUpOverlay.swift */; };
+		FF3B2B3A2F2CF0DF0009375E /* FlightSeeder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3B2B392F2CF0DF0009375E /* FlightSeeder.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01A1DFFD2C000000000000A0 /* AeroGlobe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AeroGlobe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01A1E0002C000000000000A0 /* AeroGlobeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AeroGlobeApp.swift; sourceTree = "<group>"; };
+		01A1E0022C000000000000A1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		01A1E0042C000000000000A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01A1E0062C000000000000A3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		01A1E0082C000000000000A4 /* Flight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flight.swift; sourceTree = "<group>"; };
+		01A1E00A2C000000000000A5 /* GeoMath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoMath.swift; sourceTree = "<group>"; };
+		01A1E00C2C000000000000A6 /* GlobeSceneController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobeSceneController.swift; sourceTree = "<group>"; };
+		01A1E00E2C000000000000A7 /* GlobeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobeView.swift; sourceTree = "<group>"; };
+		01A1E0102C000000000000A8 /* AirportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportService.swift; sourceTree = "<group>"; };
+		01A1E0122C000000000000A9 /* AddFlightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFlightView.swift; sourceTree = "<group>"; };
+		01A1E0142C000000000000AA /* PassportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassportView.swift; sourceTree = "<group>"; };
+		01A1E0162C000000000000AB /* CalendarImporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarImporter.swift; sourceTree = "<group>"; };
+		01A1E0182C000000000000AC /* airports.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = airports.json; sourceTree = "<group>"; };
+		01A1E01A2C000000000000AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF3B2B332F2CEFD60009375E /* UserRank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRank.swift; sourceTree = "<group>"; };
+		FF3B2B352F2CF00E0009375E /* LevelUpOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelUpOverlay.swift; sourceTree = "<group>"; };
+		FF3B2B362F2CF00E0009375E /* RankProgressCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankProgressCard.swift; sourceTree = "<group>"; };
+		FF3B2B392F2CF0DF0009375E /* FlightSeeder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightSeeder.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01A1DFFA2C000000000000A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01A1DFF42C000000000000A0 = {
+			isa = PBXGroup;
+			children = (
+				01A1DFFF2C000000000000A0 /* AeroGlobe */,
+				01A1DFFE2C000000000000A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01A1DFFE2C000000000000A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01A1DFFD2C000000000000A0 /* AeroGlobe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01A1DFFF2C000000000000A0 /* AeroGlobe */ = {
+			isa = PBXGroup;
+			children = (
+				01A1E0002C000000000000A0 /* AeroGlobeApp.swift */,
+				01A1E01B2C000000000000A0 /* Models */,
+				01A1E01C2C000000000000A0 /* Views */,
+				01A1E01D2C000000000000A0 /* Services */,
+				01A1E01E2C000000000000A0 /* Rendering */,
+				01A1E01F2C000000000000A0 /* Utilities */,
+				01A1E0202C000000000000A0 /* Resources */,
+				01A1E0042C000000000000A2 /* Assets.xcassets */,
+				01A1E01A2C000000000000AD /* Info.plist */,
+				01A1E0212C000000000000A0 /* Preview Content */,
+			);
+			path = AeroGlobe;
+			sourceTree = "<group>";
+		};
+		01A1E01B2C000000000000A0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FF3B2B332F2CEFD60009375E /* UserRank.swift */,
+				01A1E0082C000000000000A4 /* Flight.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		01A1E01C2C000000000000A0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				01A1E0022C000000000000A1 /* ContentView.swift */,
+				FF3B2B352F2CF00E0009375E /* LevelUpOverlay.swift */,
+				FF3B2B362F2CF00E0009375E /* RankProgressCard.swift */,
+				01A1E00E2C000000000000A7 /* GlobeView.swift */,
+				01A1E0122C000000000000A9 /* AddFlightView.swift */,
+				01A1E0142C000000000000AA /* PassportView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		01A1E01D2C000000000000A0 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				01A1E0102C000000000000A8 /* AirportService.swift */,
+				01A1E0162C000000000000AB /* CalendarImporter.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		01A1E01E2C000000000000A0 /* Rendering */ = {
+			isa = PBXGroup;
+			children = (
+				01A1E00C2C000000000000A6 /* GlobeSceneController.swift */,
+			);
+			path = Rendering;
+			sourceTree = "<group>";
+		};
+		01A1E01F2C000000000000A0 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				FF3B2B392F2CF0DF0009375E /* FlightSeeder.swift */,
+				01A1E00A2C000000000000A5 /* GeoMath.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		01A1E0202C000000000000A0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				01A1E0182C000000000000AC /* airports.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		01A1E0212C000000000000A0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				01A1E0062C000000000000A3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01A1DFFC2C000000000000A0 /* AeroGlobe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01A1E0232C000000000000A0 /* Build configuration list for PBXNativeTarget "AeroGlobe" */;
+			buildPhases = (
+				01A1DFF92C000000000000A0 /* Sources */,
+				01A1DFFA2C000000000000A0 /* Frameworks */,
+				01A1DFFB2C000000000000A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AeroGlobe;
+			productName = AeroGlobe;
+			productReference = 01A1DFFD2C000000000000A0 /* AeroGlobe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01A1DFF52C000000000000A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					01A1DFFC2C000000000000A0 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 01A1DFF82C000000000000A0 /* Build configuration list for PBXProject "AeroGlobe" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01A1DFF42C000000000000A0;
+			productRefGroup = 01A1DFFE2C000000000000A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01A1DFFC2C000000000000A0 /* AeroGlobe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01A1DFFB2C000000000000A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01A1E0072C000000000000A3 /* Preview Assets.xcassets in Resources */,
+				01A1E0052C000000000000A2 /* Assets.xcassets in Resources */,
+				01A1E0192C000000000000AC /* airports.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01A1DFF92C000000000000A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01A1E0032C000000000000A1 /* ContentView.swift in Sources */,
+				FF3B2B3A2F2CF0DF0009375E /* FlightSeeder.swift in Sources */,
+				01A1E0012C000000000000A0 /* AeroGlobeApp.swift in Sources */,
+				FF3B2B372F2CF00F0009375E /* RankProgressCard.swift in Sources */,
+				FF3B2B382F2CF00F0009375E /* LevelUpOverlay.swift in Sources */,
+				01A1E0092C000000000000A4 /* Flight.swift in Sources */,
+				01A1E00B2C000000000000A5 /* GeoMath.swift in Sources */,
+				01A1E00D2C000000000000A6 /* GlobeSceneController.swift in Sources */,
+				01A1E00F2C000000000000A7 /* GlobeView.swift in Sources */,
+				01A1E0112C000000000000A8 /* AirportService.swift in Sources */,
+				01A1E0132C000000000000A9 /* AddFlightView.swift in Sources */,
+				01A1E0152C000000000000AA /* PassportView.swift in Sources */,
+				FF3B2B342F2CEFD70009375E /* UserRank.swift in Sources */,
+				01A1E0172C000000000000AB /* CalendarImporter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		01A1E0242C000000000000A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AeroGlobe/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = AeroGlobe/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aeroglobe.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01A1E0252C000000000000A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AeroGlobe/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = AeroGlobe/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aeroglobe.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		01A1E0262C000000000000A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		01A1E0272C000000000000A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01A1DFF82C000000000000A0 /* Build configuration list for PBXProject "AeroGlobe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01A1E0262C000000000000A0 /* Debug */,
+				01A1E0272C000000000000A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01A1E0232C000000000000A0 /* Build configuration list for PBXNativeTarget "AeroGlobe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01A1E0242C000000000000A0 /* Debug */,
+				01A1E0252C000000000000A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01A1DFF52C000000000000A0 /* Project object */;
+}

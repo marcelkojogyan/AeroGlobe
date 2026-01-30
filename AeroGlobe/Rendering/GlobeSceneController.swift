@@ -263,14 +263,14 @@ class GlobeSceneController: ObservableObject {
     // Uses float uniforms instead of texture2d (which is broken on this platform)
     private let floatUniformShader = """
     #pragma arguments
-    float3 cluster0;
-    float3 cluster1;
-    float3 cluster2;
-    float3 cluster3;
-    float3 cluster4;
-    float3 cluster5;
-    float3 cluster6;
-    float3 cluster7;
+    vec3 cluster0;
+    vec3 cluster1;
+    vec3 cluster2;
+    vec3 cluster3;
+    vec3 cluster4;
+    vec3 cluster5;
+    vec3 cluster6;
+    vec3 cluster7;
     int clusterCount;
     
     #pragma body
@@ -379,12 +379,9 @@ class GlobeSceneController: ObservableObject {
     // SDF shader that reads cluster positions from a texture
     private let sdfTextureShader = """
     #pragma arguments
-    texture2d<float, access::sample> customDataMap;
+    sampler2D customDataMap;
     
     #pragma body
-    
-    // Create sampler
-    constexpr sampler s(filter::nearest, address::clamp_to_edge);
     
     // Fragment Position on Sphere
     vec3 p = normalize(_surface.position);
@@ -396,7 +393,7 @@ class GlobeSceneController: ObservableObject {
     // Read up to 8 clusters from texture
     for (int i = 0; i < 8; i++) {
         float u = (float(i) + 0.5) / 64.0;
-        float4 data = customDataMap.sample(s, float2(u, 0.5));
+        vec4 data = texture2D(customDataMap, vec2(u, 0.5));
         
         // Skip if alpha is 0 (no data)
         if (data.a < 0.01) break;
